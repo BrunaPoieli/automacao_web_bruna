@@ -1,0 +1,55 @@
+[
+  {
+    "tags": [],
+    "id": "shoestock",
+    "description": "",
+    "name": "Shoestock",
+    "keyword": "Feature",
+    "line": 3,
+    "elements": [
+      {
+        "tags": [
+          {
+            "name": "@CT01"
+          }
+        ],
+        "id": "shoestock;verificar-campo-de-busca-na-home-da-shoestock",
+        "description": "",
+        "keyword": "Scenario",
+        "name": "Verificar campo de busca na home da shoestock",
+        "line": 6,
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "keyword": "Given ",
+            "name": "que acessei a home da shoestock",
+            "line": 7,
+            "match": {}
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "keyword": "When ",
+            "name": "eu realizar uma busca",
+            "line": 8,
+            "match": {}
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "keyword": "Then ",
+            "name": "valido a busca de produtos",
+            "line": 9,
+            "match": {}
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "uri": "file:src/test/java/feature/shoestock.feature"
+  }
+]
